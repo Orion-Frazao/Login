@@ -1,0 +1,151 @@
+/* ===== INFORMAÇÕES GLOBAIS ===== */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(37, 37, 37);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ===== CONTAINER ===== */
+
+#container-login{
+    background: rgb(30, 30, 30);
+    border: 2px solid rgb(41, 41, 41);
+    width: 400px;
+    height: 550px;
+    margin: 30px auto;
+
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -o-border-radius: 30px;
+
+}
+
+/* ===== CONTEÚDO ===== */
+
+#container-login h2{
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#barra-colorida{
+    margin: 8px auto;
+    height: 8px;
+    width: 70px;
+    background: linear-gradient(to right, rgb(67,210,240), rgb(41,110,177));
+}
+
+#redes-sociais{
+    margin: 25px;
+    text-align: center;
+}
+
+#redes-sociais ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+}
+
+#redes-sociais a{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: rgb(13,240,249);
+}
+
+#redes-sociais a:hover{
+    font-size: 0.9em;
+    color: white;
+    text-shadow:rgb(13,240,249) 0.1em 0.1em 2em;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 0px;
+}
+
+/* ===== FORMULÁRIO ===== */
+
+fieldset{
+  border: none; 
+  margin: 20px 40px;
+  height: 300px;
+}
+
+label{
+    color: white;
+    font-weight: bold;
+}
+
+input#email, input#senha{
+    line-height: 3em;
+    width: 100%;
+    margin: 10px 0px;
+    border: none;
+
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+input#lembrar{
+    margin: 10px 0px;
+}
+
+a#esqueceu{
+    margin-left: 15px;
+}
+
+a#esqueceu:hover{
+    color:rgb(13,240,249);
+}
+
+input#enviar{
+    width: 100%;
+    line-height: 3em;
+    margin: 15px 0px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    -webkit-border-radius: 30px;
+
+    background: linear-gradient(to right, rgb(67,210,240), rgb(41,110,177));
+
+}
+
+input#enviar:hover{
+    line-height: 2.78em;
+    font-size: 1.1em;
+} 
+
+#link-finais a{
+    font-size: 0.8em;
+}
+
+#link-finais a:hover{
+    color:rgb(13,240,249);
+}
+
+ #colado{
+   margin-left: 30px;
+}
